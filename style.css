@@ -63,13 +63,7 @@
     "download_url": "https://picsum.photos/..."
 }
     .photo1{
-        grid-column-start: 1;
-        grid-column-end: 4 ;
-    }
-
-    .photo2{
-        grid-column-start: 1;
-        grid-column-end: 4;
+        grid-area: 1/4/1/4;
     }
 
     .photo3{
