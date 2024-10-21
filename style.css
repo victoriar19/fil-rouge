@@ -1,72 +1,83 @@
-.vert{
+.vert {
     color: rgb(23, 222, 163);
 }
 
-.fond{
+.fond {
     background-color: rgb(4, 24, 33);
 }
 
-.yeseva{
+.yeseva {
     font-family: "Yeseva One", serif;
     font-weight: 400;
     font-style: normal;
     color: white;
-  }
+}
 
-.montserrat{
+.montserrat {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: 5px;
     font-weight: 5px;
     font-style: normal;
     color: grey;
-  }
+}
 
-  .texte{
+.texte {
     font-family: "Yeseva One", serif;
     font-weight: 400;
     font-style: normal;
     color: white;
-  }
+}
 
-.droite{
-    display:flex;
+.droite {
+    display: flex;
     justify-content: space-around;
     align-items: end;
 }
 
-.icone{
-    display:flex;
+.icone {
+    display: flex;
     justify-content: center;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: 5px;
     font-weight: 5px;
     font-style: normal;
-    display:flex;
+    display: flex;
     justify-content: space-around;
-  }
+}
 
-  .encadre{
+.encadre {
     background-color: rgb(23, 222, 163);
-  }
+}
 
-  .grille{
+.grille {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
-    }
-
-    "id": "0",
-    "author": "Alejandro Escamilla",
-    "width": 5616,
-    "height": 3744,
-    "url": "https://unsplash.com/...",
-    "download_url": "https://picsum.photos/..."
 }
-    .photo1{
-        grid-area: 1/4/1/4;
-    }
 
-    .photo3{
-        grid-column-start: 1;
-        grid-column-end: 4;
-    }
+"id": "0",
+"author": "Alejandro Escamilla",
+"width": 5616,
+"height": 3744,
+"url": "https://unsplash.com/...",
+"download_url": "https://picsum.photos/..."
+}
+
+.photo1 {
+    grid-area: 1/4/1/4;
+}
+
+.photo3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: 5px;
+    font-weight: 5px;
+    font-style: normal;
+    color: rgb(89, 107, 117);
+    display:flex;
+    justify-content: center;
+}
