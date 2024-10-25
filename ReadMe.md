@@ -15,4 +15,4 @@ Nous avons utilisé :
 
 Le projet est validé par W3C HTML et CSS.
 
-Page du projet : 
+Page du projet : https://victoriar19.github.io/fil-rouge/
